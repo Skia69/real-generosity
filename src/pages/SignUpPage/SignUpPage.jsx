@@ -25,8 +25,6 @@ function SignUpPage() {
 
   const onSubmit = async ({ fullname, email, password, phone }) => {
     console.log('registration in process...');
-    console.log('email', email);
-    console.log('phone', phone);
 
     try {
       const { user } = await auth.createUserWithEmailAndPassword(
@@ -34,23 +32,24 @@ function SignUpPage() {
         password
       );
 
-      await firestore.collection('users').doc(user.uid).set({
-        fullname,
-        email,
-        phone,
-        role: 'user',
-        uid: user.uid,
-        isApproved: false,
-      });
-      toast({
-        title: 'Account created.',
-        description: 'Your account was successfully created.',
-        status: 'success',
-        duration: 7000,
-        isClosable: true,
-      });
-
-      history.push('/');
+      if (user) {
+        await firestore.collection('users').doc(user.uid).set({
+          fullname,
+          email,
+          phone,
+          role: 'user',
+          uid: user.uid,
+          isApproved: false,
+        });
+        history.push('/');
+        toast({
+          title: 'Account created.',
+          description: 'Your account was successfully created.',
+          status: 'success',
+          duration: 7000,
+          isClosable: true,
+        });
+      }
     } catch (error) {
       const errorCode = error.code;
 
@@ -114,7 +113,7 @@ function SignUpPage() {
               isRequired
               ref={register}
               focusBorderColor="green.200"
-              pattern="(?=.*[a-z]{1,})(?=.*[A-Z]{1,})(?=.*[0-9]{1,})(?=.*[!@#\$%\^&\*]).{5,}$"
+              // pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
               title="Must contain at least one number and one uppercase and lowercase letter, and at least 6 or more characters"
             />
             {errors.password && <Text>{errors.password.message} </Text>}
@@ -128,6 +127,7 @@ function SignUpPage() {
               name="confirm"
               variant="filled"
               isRequired
+              // pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$"
               ref={register({
                 validate: (value) => {
                   if (value === getValues('password')) {
