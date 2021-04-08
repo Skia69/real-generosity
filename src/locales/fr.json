@@ -1,0 +1,147 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "items": "Éléments",
+    "about": "À Propos",
+    "contactUs": "Contact",
+    "getStarted": "Créer Un Compte",
+    "copy": "Tous les droits sont réservés",
+    "profile": "View profile",
+    "logout": "Logout"
+  },
+  "aboutUs": {
+    "aboutUs": "À Propos de nous",
+    "tab1": " À Propos de Real generosity",
+    "tab2": "Notre Valeurs",
+    "tab3": "Comment ça marche",
+    "tab4": "FAQ",
+    "tab1heading1": "Qui sommes-nous?",
+    "tab1heading2": "Chez Real Generosity, nous donnons aux individus les moyens de transformer la compassion en action. Parce que c'est ainsi que le changement se produit.",
+    "tab1p1": "Real Generosity fournit une plate-forme pour connecter le peuple libanais et aide notre société à traverser la crise économique.",
+    "tab1p2": "Il couvre les besoins de ceux qui n'ont pas les moyens d'acheter certains articles essentiels tels que des vêtements, des meubles, des médecins, des appareils électroménagers, des jouets et des livres.",
+    "tab1p3": "Cela permet aux donateurs de partager facilement et simplement les éléments qu’ils sont prêts à donner, ainsi que de parcourir facilement les produits dont ils ont besoin.",
+    "v1": "Dignité",
+    "v2": "Confidentialité",
+    "v3": "Authenticité",
+    "v1p": " Nous garantissons que tout au long du processus de donation et de demande, le sentiment de confiance en soi de l'utilisateur est préservé.",
+    "v2p": "La confidentialité de l'utilisateur est pleinement prise en compte. Certaines informations personnelles ne sont exposées qu'avec un préavis.",
+    "v3p": "Selon nos accords, les demandes faux ne seront pas acceptables.",
+    "step1": "step 1",
+    "step2": "step 2",
+    "step3": "step 3",
+    "step1H": "S'inscrire",
+    "step2H": "Être vérifié",
+    "step3H": "Donner et Demander des articles",
+    "step1p": "Remplissez le formulaire d'inscription",
+    "step2p": "Attendez l'approbation",
+    "step3p": "Collaborez avec nous en toute sécurité",
+    "tab4heading": "Questions fréquemment posées",
+    "q1": "Les cartes d'identité sont-elles exposées au public?",
+    "a1": "Non, les cartes d'identité ne sont utilisées que pour l'authentification.",
+    "q2": "Qui peut prendre un coup d'oeil sur mes informations personnelles?",
+    "a2": "Seuls ceux qui ont obtenu l'approbation de la demande",
+    "q3": "Combien de fois puis-je obtenir un don?",
+    "a3": "Il n'y a pas de nombre précises, cela dépend du donateur s'il approuvera la demande ou non",
+    "tab3p": "Une autre question? vous pouvez nous contacter",
+    "here": "Ici"
+  },
+
+  "signin": {
+    "signin": "Se Connecter",
+    "subheading": "Vous n'avez pas un compte?",
+    "email": "Adresse E-mail",
+    "password": "Mot de Passe",
+    "forgotyourpassword": "Oublié votre mot de passe?",
+    "signinbutton": "Se Connecter",
+    "googlebutton": "Se Connecter avec Google"
+  },
+
+  "signup": {
+    "subheading": "Vous avez un compte existé?",
+    "signuplink": "S'inscrire'",
+    "fullname": " Nom et Prénom",
+    "address": "Adresse",
+    "email": "Adresse E-mail",
+    "password": "Mot de Passe",
+    "repeat": "Repetez le Mot de Passe",
+    "passplaceholder": "6+ caractères",
+    "phone": "Numéro de Telephone",
+    "idupload": "SVP, télécharger ici votre Carte d'Identification",
+    "createbutton": "Créer Un Compte"
+  },
+  "contactUs": {
+    "contact": "Contactez Nous",
+    "subheading": "Pour toutes demandes de renseignements, veuillez nous envoyer un courriel en utilisant le formulaire",
+    "fullname": "Nom et Prénom",
+    "email": "Adresse E-mail",
+    "message": "Rédigez votre message",
+    "send": "Envoyer",
+    "alert": "Votre message a été envoyé avec succès"
+  },
+  "profilePage": {
+    "editProfile": "Modifier le Profil",
+    "donations": "Dons",
+    "requests": "Requêtes",
+    "search": "Rechercher"
+  },
+
+  "adminPage": {
+    "admin": "Admin",
+    "users": "Usagers",
+    "reports": "Rapports",
+    "search": "Rechercher",
+    "donations": "Dons",
+    "requests": "Requêtes",
+    "delete": "Effacer"
+  },
+  "additem": {
+    "title": "Titre",
+    "category": "Catégorie",
+    "description": "Description",
+    "uploadimages": " Télécharge Images",
+    "addbutton": "Ajouter un élément"
+  },
+
+  "heroSection": {
+    "heroText_1": "Change la vie",
+    "heroText_2": " de quelqu'un",
+    "heroText_3": " en donnant",
+    "heroText_4": "de",
+    "heroText_5": " vôtre",
+    "paragraph_1": "Aidez à faire du Liban un meilleur endroit",
+    "paragraph_2": "un don à la fois.. ",
+    "donateButton": "Faire un Don maintenant "
+  },
+  "categoryCards": {
+    "header": "Catégories",
+    "furniture": "Fourniture",
+    "clothes": "Vêtements",
+    "books": "Livres",
+    "toys": "Jouets",
+    "medics": "Médecins",
+    "appliances": "Dispositifs"
+  },
+  "itemPage": {
+    "items": "Eléments",
+    "details": "Détails",
+    "requests": "Demandes",
+    "reason": "Raison:",
+    "approve": "Approuver",
+    "decline": "Déclin",
+    "edit": "Éditer",
+    "request": "Demande",
+    "report": "Rapport",
+    "reports": "Rapports",
+    "delete": "Suprimer",
+    "delivered": "Livré",
+    "cancel": "Annuler",
+    "deletep": "Etes-vous sûr que vous voulez supprimer?"
+  },
+  "header": {
+    "search": "Explore"
+  },
+  "cardlist": {
+    "heading": "Les dernières dons",
+    "heading1": "Explorer Plus"
+  }
+}

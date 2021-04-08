@@ -1,0 +1,172 @@
+{
+  "navbar": {
+    "home": "Home",
+    "items": "Items",
+    "about": "About",
+    "contactUs": "Contact Us",
+    "getStarted": "Get Started",
+    "copy": "All rights reserved",
+    "profile": "View profile",
+    "logout": "Logout"
+  },
+  "header": {
+    "search": "Search"
+  },
+
+  "aboutUs": {
+    "aboutUs": "About us",
+    "tab1": "About Real generosity",
+    "tab2": "Our Values",
+    "tab3": "How it works",
+    "tab4": "FAQ",
+    "tab1heading1": "Who we are?",
+    "tab1heading2": "At Real Generosity, we empower individuals to turn compassion into action. Because that is how change happens. ",
+    "tab1p1": "Real Generosity provides a platform to connect Lebanese people and helps our society through the economic crisis.",
+    "tab1p2": "It covers the needs of those who cannot afford to purchase some essential items such as clothes, furniture, medics, appliances, toys and books.",
+    "tab1p3": "It makes it simple and easy for donors to share the stuff they’re willing to donate as well as easy for seekers  to browse the goods they need.  ",
+    "v1": "Dignity",
+    "v2": "Confidentiality",
+    "v3": "Authenticity",
+    "v1p": "We assure that throughout the process of donation and request preserve sense of user self-worth.",
+    "v2p": "User’s privacy is fully taken into consideration. Certain personal information are only exposed with previous notice.",
+    "v3p": "According to our terms and agreements, no false or fake donations or request are to be submitted.",
+    "step1": "step 1",
+    "step2": "step 2",
+    "step3": "step 3",
+    "step1H": "sign up",
+    "step2H": "Get Verified",
+    "step3H": "Donate and Request items",
+    "step1p": "Fill the sign up form",
+    "step2p": "Wait for the approval",
+    "step3p": "Collaborate with us safely",
+    "tab4heading": "Frequently Asked Questions ",
+    "q1": "Are ID cards exposed to the public?",
+    "a1": "No, ID cards are used only for authentication isuue.  ",
+    "q2": "Who can check my personal information?",
+    "a2": "Only those who have obtained the approval of the request",
+    "q3": "How many times can get a Donation?",
+    "a3": "There is no specific times,it's depends on the donor if he will approve the request or no ",
+    "tab3p": "Any further question? you can get in contact with us",
+    "here": "here"
+  },
+  "signin": {
+    "signin": "Sign In",
+    "subheading": "Do not have an account?",
+    "email": "Email Address",
+    "password": "Password",
+    "forgotyourpassword": "Forgot your password?",
+    "signinbutton": "Sign In",
+    "googlebutton": "Sign in with Google"
+  },
+  "signup": {
+    "subheading": "Already have an account?",
+    "signuplink": "Sign Up",
+    "fullname": "Full Name",
+    "address": "Address",
+    "email": "Email Address",
+    "password": "Password",
+    "repeat": "Repeat Password",
+    "passplaceholder": "6+ characters",
+    "phone": "Phone Number",
+    "idupload": "Kindly, upload your ID card here",
+    "createbutton": "Create Account"
+  },
+  "contactUs": {
+    "contact": "Contact Us",
+    "subheading": "For All Enquiries, Please Email Us Using The Form",
+    "fullname": "Full Name",
+    "email": "Email Address",
+    "message": "Write your message",
+    "send": "Send",
+    "alert": "your message has been sent successfully"
+  },
+  "card": {
+    "more": "more datails"
+  },
+  "itemPage": {
+    "items": "Items",
+    "back": "Back",
+    "details": "Details",
+    "requests": "Requests",
+    "reason": "Reason",
+    "approve": "Approve",
+    "decline": "Decline",
+    "edit": "edit",
+    "request": "Request",
+    "report": "Report",
+    "reports": "Reports",
+    "delete": "Delete",
+    "delivered": "Delivered",
+    "cancel": "Cancel",
+    "deletep": "Are you sure you want to delete?",
+    "createdAt": "CreatedAt",
+    "requesterInfo": "Requester info"
+  },
+
+  "heroSection": {
+    "heroText_1": "Make someone's ",
+    "heroText_2": "Life ",
+    "heroText_3": "by",
+    "heroText_4": "Giving ",
+    "heroText_5": "of yours",
+    "paragraph_1": "Help make lebanon a better place",
+    "paragraph_2": "one donation at a time..",
+    "donateButton": "Donate Now"
+  },
+  "categoryCards": {
+    "header": "Categories",
+    "furniture": "Furniture",
+    "clothes": "Clothes",
+    "books": "Books",
+    "toys": "Toys",
+    "medics": "Medics",
+    "appliances": "Appliances"
+  },
+  "editProfile": {
+    "fullname": "Full Name",
+    "address": "Address",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "idupload": "Kindly, upload your new ID card here",
+    "updateInfo": "Update your Info"
+  },
+  "profilePage": {
+    "editProfile": "Edit Profile",
+    "donations": "Donations",
+    "requests": "Requests",
+    "search": "Search",
+    "notifications": "Notifications"
+  },
+  "adminPage": {
+    "admin": "Admin",
+    "users": "Users",
+    "reports": "Reports",
+    "search": "Search",
+    "donations": "Donations",
+    "requests": "Requests",
+    "delete": "Delete"
+  },
+  "additem": {
+    "title": "Title",
+    "category": "Category",
+    "description": "Description",
+    "uploadimages": "Upload Images",
+    "addbutton": "Add Item"
+  },
+  "herosec": {
+    "heading1": "Make som",
+    "heading2": " by",
+    "heading3": "Giving",
+    "heading4": "eone's",
+    "heading5": "Life",
+    "heading6": "of",
+    "heading7": " Yours",
+    "text1": "Help make Lebanon a better place",
+    "text2": "One donation at a time..",
+    "button": "Donate Now"
+  },
+  "cardlist": {
+    "heading": "Latest Donations",
+    "heading1": " See More..."
+  }
+}
