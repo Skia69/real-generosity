@@ -34,5 +34,4 @@ To Visit App:
 `localhost:3000/`  
 
 ## Reflection
-This was a 1 week long project built during my front-end web development bootcamp at Re-coded. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features all of which has been achieved by leveraging `react`, `react-router-5.0` and `tailwindcss`.  
-![Capture1](https://user-images.githubusercontent.com/42115721/114062904-b5f73b00-98a0-11eb-93d2-a4406db18581.PNG)
+This was a 6 weeks long capstone project built during my front-end web development bootcamp at Re-coded. Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features all of which has been achieved by leveraging `react`, `react-router-5.0` and `chakra-ui`.  
